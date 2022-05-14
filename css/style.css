@@ -1,3 +1,4 @@
+/*********** General Features Start ***********/
 body,html{
     margin: 0;
     display: flex;
@@ -6,14 +7,16 @@ body,html{
     height: 100%;
     flex-direction: column;
 }
+/*********** General Features End ***********/
 
+/*********** Youtube Logo Features Start ***********/
 .youtube-logo{
     width:170px;
     margin-bottom: 15px;
 }
+/*********** Youtube Logo Features Start ***********/
 
-/*********** Container ***********/
-
+/*********** Container Features Start ***********/
 .container{
     width: 600px;
     border-top: solid 1.5px rgb(214, 214, 214);  
@@ -21,11 +24,10 @@ body,html{
     display: flex;
     align-items: center;
     position: relative;
-
 }
+/*********** Container Features End ***********/
 
-/*********** Contanet ***********/
-
+/*********** Contanet Features Start ***********/
 .boxes{
     display: flex;
     overflow-x: auto;
@@ -33,9 +35,9 @@ body,html{
     padding: 10px 0;
     align-items: center;
 }
+/*********** Contanet Features End ***********/
 
-/*********** Scrollbar ***********/
-
+/*********** Scrollbar Features Start ***********/
 .boxes::-webkit-scrollbar{
     display: none;
 }   
@@ -43,9 +45,9 @@ body,html{
 .boxes{
     scroll-behavior: smooth;
 }
+/*********** Scrollbar Features End ***********/
 
-/*********** Box ***********/
-
+/*********** Box Features Start ***********/
 .box{
     padding: 5px 10px;
     border:solid 1px #b3b3b3;
@@ -58,7 +60,9 @@ body,html{
 .box:hover{
     background-color: #dfdfdf;
 }
+/*********** Box Features End ***********/
 
+/*********** Button Features Starts ***********/
 .active{
     background-color: black;
     color: white;
@@ -68,11 +72,9 @@ body,html{
 .active:hover{
     background-color: black;
 }
+/*********** Button Features End ***********/
 
-/*********** Buttons ***********/
-
-/* Left Button */
-
+/*********** Left Button Features Starts ***********/
 .left-btn{
 
     display: none;
@@ -110,10 +112,9 @@ body,html{
     top: 0;
     left: 0;
 }
+/*********** Left Button Features End ***********/
 
-
-/* Right Button */
-
+/*********** Right Button Features Starts ***********/
 .right-btn{
     padding: 15px 0;
     
@@ -152,7 +153,9 @@ body,html{
     top: 0;
     right: 0;
 }
+/*********** Right Button Features End ***********/
 
+/*********** Hover Text Features Start ***********/
 .hover-text{
     margin-top: 2px;
     display: flex;
@@ -177,3 +180,4 @@ body,html{
 .v-visible{
     visibility: visible;
 }
+/*********** Hover Text Features End ***********/
