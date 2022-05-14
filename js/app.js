@@ -1,22 +1,18 @@
+/**************************** DOM Definition Start ****************************/  
 let boxes = document.querySelector(".boxes");
-
 let leftbtn = document.querySelector('.left-btn')
-
 let rightbtn = document.querySelector('.right-btn')
-
 let rightLink = rightbtn.querySelector('a')
-
 let rightSubText = document.querySelector('.last')
-
 let leftSubText = document.querySelector('.prev')
-
 let leftLink = leftbtn.querySelector('a')
+/**************************** DOM Definition End ****************************/  
 
+/**************************** Click Event Start ****************************/  
 leftbtn.addEventListener('click', leftBtn)
 rightbtn.addEventListener('click', rightBtn)
 
-
-// Right Button Event
+/**************************** Right Button Event Start ****************************/ 
 function rightBtn(){
 
     if(rightSubText.classList.contains('v-visible')){
@@ -32,8 +28,9 @@ function rightBtn(){
         
     }
 }
+/**************************** Right Button Event End ****************************/ 
 
-// Left Button Event
+/**************************** Left Button Event Start ****************************/ 
 function leftBtn(){
 
     if(leftSubText.classList.contains('v-visible')){
@@ -50,9 +47,11 @@ function leftBtn(){
 
 
 }
+/**************************** Left Button Event End ****************************/ 
+/**************************** Click Event End ****************************/  
 
-
-// Right Button Over
+/**************************** Button Over Start ****************************/  
+/**************************** Right Button Over Start ****************************/ 
 rightLink.addEventListener('mouseover',rightLinkOver)
 rightLink.addEventListener('mouseout',rightLinkOut)
 
@@ -63,9 +62,9 @@ function rightLinkOver(){
 function rightLinkOut(){
     rightSubText.classList.replace('v-visible','v-none')
 }
+/**************************** Right Button Over End ****************************/ 
 
-
-// Left Button Over
+/**************************** Left Button Over Start ****************************/ 
 leftLink.addEventListener('mouseover',leftLinkOver)
 leftLink.addEventListener('mouseout',leftLinkOut)
 
@@ -76,3 +75,5 @@ function leftLinkOver(){
 function leftLinkOut(){
     leftSubText.classList.replace('v-visible','v-none')
 }
+/**************************** Left Button Over End ****************************/ 
+/**************************** Button Over Start ****************************/  
