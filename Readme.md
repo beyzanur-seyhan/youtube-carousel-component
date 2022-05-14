@@ -4,8 +4,6 @@
 
 ▶️ [Used Languages Or Technologies](#used-languages-or-technologies)
 
-▶️ [View](#view)
-
 ▶️ [Getting Started](#getting-started)
 
 ▶️ [License](#license)
