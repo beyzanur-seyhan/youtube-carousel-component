@@ -1,5 +1,5 @@
 # YOUTUBE CAROUSEL COMPONENT
-![View](https://github.com/beyzanur-seyhan/responsive-portfolio-page/blob/main/view/portfolio.png?raw=true)
+![View](https://github.com/beyzanur-seyhan/youtube-carousel-component/blob/main/images/view/youtube-carousel.png?raw=true)
 
 
 ▶️ [Used Languages Or Technologies](#used-languages-or-technologies)
@@ -32,7 +32,7 @@
 
 - Clone this repository with git clone
 
-![Clone-Repository](https://user-images.githubusercontent.com/80166639/156000904-810121f2-11a7-4066-b874-8defb1fda19c.jpg)
+![Clone-Repository](https://github.com/beyzanur-seyhan/youtube-carousel-component/blob/main/images/git-clone.jpg?raw=true)
 
 <u>Type the following into the terminal:</u>
 
@@ -44,7 +44,7 @@ git clone https://github.com/beyzanur-seyhan/youtube-carousel-component.git
 
 ## License
 
-[MIT License](https://github.com/beyzanur-seyhan/responsive-portfolio-page/blob/main/LICENSE)
+[MIT License](https://github.com/beyzanur-seyhan/youtube-carousel-component/blob/main/LICENSE)
 
 ## Contact Me
 
